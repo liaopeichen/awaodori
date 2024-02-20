@@ -20,8 +20,13 @@ h6 {
 }
 
 header div.top {
-  padding: 1rem;
-  background-image: url("./images/background.png");
+  padding: 2.25rem;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("./images/background.jpeg");
+  background-position: center bottom;
 }
 
 header div.top h1 {
