@@ -1,13 +1,11 @@
-@font-face {
-  font-family: "myFont";
-  src: url(./清松手寫體1.ttf);
-}
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "myFont", DFkai-sb, sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1,
@@ -16,7 +14,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: normal;
+  font-family: "Kosugi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header div.top {
