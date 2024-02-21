@@ -237,10 +237,20 @@ td {
   margin: 1.25rem;
 }
 
+.dance .content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .dance .content section.left,
 .dance .content section.right {
-  float: left;
+  flex: 1;
   width: 45%;
+  margin-right: 5%;
+}
+
+.dance .content section.right {
+  margin-right: 0;
 }
 
 .dance ol li {
@@ -266,6 +276,44 @@ td {
   text-overflow: ellipsis;
   white-space: nowrap;
   margin-bottom: 0;
+}
+
+/* FOOTER */
+.fa-github {
+  color: #ddd;
+  font-size: 1.35rem;
+}
+
+.fa-github:hover {
+  animation: github-animation-in 0.5s ease infinite alternate;
+}
+
+.footer b i {
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.fa-github:not(:hover) {
+  animation: github-animation-out 0.5s ease-out;
+}
+
+@keyframes github-animation-in {
+  from {
+    transform: translateY(0rem) scale(1.2);
+  }
+  to {
+    transform: translateY(-0.3rem) scale(1.2);
+  }
+}
+
+@keyframes github-animation-out {
+  from {
+    transform: translateY(0rem) scale(1.2);
+  }
+  to {
+    transform: translateY(0rem) scale(1);
+  }
 }
 
 @media screen and (max-width: 600px) {
