@@ -88,7 +88,9 @@ section.left img {
 }
 
 section.left h3 {
-  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: rgb(12, 122, 92);
+  margin-bottom: 1.25rem;
 }
 
 section.left table {
@@ -106,7 +108,7 @@ section.right {
 
 section.right h3 {
   font-size: 1.5rem;
-  margin-top: 1.95rem;
+  margin-top: 3rem;
 }
 
 p {
@@ -117,69 +119,97 @@ section.right ul {
   margin-left: 2rem;
 }
 
-/* korea.html */
-.player {
+/* history.html */
+.origin {
   border: 3px solid burlywood;
   margin: 2rem 2rem;
   padding: 0.5rem;
 }
 
-.korea h3 {
-  font-size: 1.5rem;
-  padding-bottom: 1.5rem;
+section.history h3 {
+  font-size: 2rem;
+  color: rgb(12, 122, 92);
+  margin-bottom: 1.25rem;
 }
 
-.player h4 {
+.origin h4 {
   font-size: 1.5rem;
   color: rgb(0, 90, 91);
 }
 
-.player h5 {
+.origin h5 {
   font-size: 1.05rem;
   color: rgb(6, 120, 120);
 }
 
-/* japan.html */
-div.japan {
+/* location.html */
+main h3.tokushima {
+  font-size: 2rem;
+  color: rgb(12, 122, 92);
+  margin-top: 1.25rem;
+  margin-left: 2rem;
+}
+
+div.location {
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
 }
 
-div.japan img {
+div.location h3 {
+  font-size: 1.5rem;
+  color: rgb(0, 90, 91);
+  margin-bottom: 1rem;
+}
+
+div.location img {
   flex: 1 1 300px;
   width: 60vh;
   max-width: 60vh;
 }
 
-div.japan .info {
+div.location .info {
   flex: 3 1 600px;
   padding: 2rem;
 }
 
-div.competition {
+div.location ul li {
+  list-style: none;
+}
+
+div.kaikan {
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
 }
 
-div.competition div.text {
+div.kaikan div.text {
   flex: 5 1 300px;
   padding: 1rem;
 }
 
-div.competition div.text h3 {
-  font-size: 2rem;
-  color: rgb(12, 122, 92);
+div.kaikan div.text h3 {
+  font-size: 1.5rem;
+  color: rgb(0, 90, 91);
+}
+div.kaikan div.text h4 {
+  font-size: 1.05rem;
+  color: rgb(6, 120, 120);
 }
 
-#piechart {
-  flex: 1 1 300px;
+div.kaikan ul li {
+  list-style: none;
 }
 
-section.china h3 {
+#awaodori-kaikan {
+  flex: 1 1 200px;
+}
+
+/* glossary.html */
+section.glossary h3 {
   font-size: 2rem;
   color: rgb(12, 122, 92);
+  margin-bottom: 1.25rem;
 }
 
 th {
@@ -187,22 +217,57 @@ th {
   color: white;
 }
 
-.china table,
+.glossary table,
 th,
 td {
-  border: 1px solid white;
+  border: 1px solid rgb(210, 247, 195);
   border-collapse: collapse;
   padding: 2px 4px;
+  margin-top: 1.25rem;
 }
 
-section.taiwan h3 {
+/* dance.html */
+.dance div hr {
+  margin: 0 1rem;
+}
+
+.dance h3 {
   font-size: 2rem;
   color: rgb(12, 122, 92);
+  margin: 1.25rem;
 }
 
-section.taiwan ul li {
-  margin-left: 2rem;
+.dance .content section.left,
+.dance .content section.right {
+  float: left;
+  width: 45%;
 }
+
+.dance ol li {
+  list-style-type: none;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.dance section.left ol li {
+  margin-bottom: 2.5rem;
+}
+
+.dance ol li img {
+  float: left;
+  margin-right: 10px;
+  margin-left: 2rem;
+  width: 55px;
+  vertical-align: bottom;
+}
+
+.dance ol li p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 600px) {
   header nav ul {
     flex-direction: column;
