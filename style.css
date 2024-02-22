@@ -173,10 +173,6 @@ div.location .info {
   padding: 2rem;
 }
 
-div.location ul li {
-  list-style: none;
-}
-
 div.kaikan {
   display: flex;
   flex-wrap: wrap;
@@ -195,10 +191,6 @@ div.kaikan div.text h3 {
 div.kaikan div.text h4 {
   font-size: 1.05rem;
   color: rgb(6, 120, 120);
-}
-
-div.kaikan ul li {
-  list-style: none;
 }
 
 #awaodori-kaikan {
