@@ -108,6 +108,7 @@ section.right {
 
 section.right h3 {
   font-size: 1.5rem;
+  color: rgb(0, 90, 91);
   margin-top: 3rem;
 }
 
@@ -173,10 +174,6 @@ div.location .info {
   padding: 2rem;
 }
 
-div.location ul li {
-  list-style: none;
-}
-
 div.kaikan {
   display: flex;
   flex-wrap: wrap;
@@ -195,10 +192,6 @@ div.kaikan div.text h3 {
 div.kaikan div.text h4 {
   font-size: 1.05rem;
   color: rgb(6, 120, 120);
-}
-
-div.kaikan ul li {
-  list-style: none;
 }
 
 #awaodori-kaikan {
@@ -235,6 +228,11 @@ td {
   font-size: 2rem;
   color: rgb(12, 122, 92);
   margin: 1.25rem;
+}
+
+.dance h4 {
+  font-size: 1.5rem;
+  color: rgb(0, 90, 91);
 }
 
 .dance .content {
@@ -276,6 +274,11 @@ td {
   text-overflow: ellipsis;
   white-space: nowrap;
   margin-bottom: 0;
+}
+
+.dance ol li p span {
+  font-size: 1.05rem;
+  color: rgb(6, 120, 120);
 }
 
 /* FOOTER */
