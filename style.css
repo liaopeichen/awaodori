@@ -229,6 +229,11 @@ td {
   margin: 1.25rem;
 }
 
+.dance h4 {
+  font-size: 1.5rem;
+  color: rgb(0, 90, 91);
+}
+
 .dance .content {
   display: flex;
   flex-wrap: wrap;
@@ -268,6 +273,11 @@ td {
   text-overflow: ellipsis;
   white-space: nowrap;
   margin-bottom: 0;
+}
+
+.dance ol li p span {
+  font-size: 1.05rem;
+  color: rgb(6, 120, 120);
 }
 
 /* FOOTER */
